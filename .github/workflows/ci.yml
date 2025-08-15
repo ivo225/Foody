@@ -19,8 +19,14 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore the packages
-      run: dotnet restore
-    - name: Build the solution
-      run: dotnet build --no-restore
-    - name: Run all test
-      run: dotnet test --no-build --verbosity normal
+  working-directory: FoodyApiTests
+  run: dotnet restore
+
+- name: Build the solution
+  working-directory: FoodyApiTests
+  run: dotnet build --no-restore
+
+- name: Run all tests
+  working-directory: FoodyApiTests
+  run: dotnet test --no-build --verbosity normal
+
