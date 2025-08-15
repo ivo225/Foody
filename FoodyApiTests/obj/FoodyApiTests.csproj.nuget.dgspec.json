@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ivo/Downloads/Foody/FoodyApiTests/FoodyApiTests.csproj": {}
+  },
+  "projects": {
+    "/Users/ivo/Downloads/Foody/FoodyApiTests/FoodyApiTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ivo/Downloads/Foody/FoodyApiTests/FoodyApiTests.csproj",
+        "projectName": "FoodyApiTests",
+        "projectPath": "/Users/ivo/Downloads/Foody/FoodyApiTests/FoodyApiTests.csproj",
+        "packagesPath": "/Users/ivo/.nuget/packages/",
+        "outputPath": "/Users/ivo/Downloads/Foody/FoodyApiTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ivo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.14.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[112.1.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
