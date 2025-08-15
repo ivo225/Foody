@@ -1,6 +1,5 @@
 name: .NET Foody API Tests
 
-# Trigger the workflow on push or pull request to main
 on:
   push:
     branches: [ "main" ]
@@ -12,27 +11,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Setup .NET SDK
       - name: Setup .NET 8
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
 
-      # Step 3: Restore dependencies (from your solution file)
       - name: Restore dependencies
-        working-directory: FoodyApiTests
-        run: dotnet restore FoodyApiTests.sln
+        run: dotnet restore ExamFinal2Final.sln
 
-      # Step 4: Build the solution
       - name: Build solution
-        working-directory: FoodyApiTests
-        run: dotnet build FoodyApiTests.sln --no-restore --configuration Release
+        run: dotnet build ExamFinal2Final.sln --no-restore --configuration Release
 
-      # Step 5: Run tests
       - name: Run NUnit tests
-        working-directory: FoodyApiTests
-        run: dotnet test FoodyApiTests.sln --no-build --verbosity normal --configuration Release
+        run: dotnet test ExamFinal2Final.sln --no-build --verbosity normal --configuration Release
