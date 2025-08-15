@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodyApiTests", "FoodyApiTests\FoodyApiTests.csproj", "{66A7A7E6-0B61-DEF9-0984-B5C9165FCBEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66A7A7E6-0B61-DEF9-0984-B5C9165FCBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A7A7E6-0B61-DEF9-0984-B5C9165FCBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A7A7E6-0B61-DEF9-0984-B5C9165FCBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A7A7E6-0B61-DEF9-0984-B5C9165FCBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58935FA5-4F09-4BB6-8363-412F47CBA85C}
+	EndGlobalSection
+EndGlobal
